@@ -1,14 +1,21 @@
-*{
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-}
+*{margin:0px;
+  padding:0px;
+  box-sizing:border-box; 
 
-.wholepage{
+}
+.Wholepage{
   width:90%;
   height: auto;
   margin:auto;
 }
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-color: #333;
+  
+
+}
+
 
 header{
   background: #bbb;
@@ -18,13 +25,6 @@ header{
 .headerLogo{
   padding-left: 43%;
 }
-
-body{
-	
-  font-family: 'Open Sans', sans-serif;
-  background-color:#333;
-}
-
 nav{
 	width:100%;
 	background-color:#da8127;
@@ -76,141 +76,34 @@ nav a:hover {
 			}
 
 
-.searchForm{
-	     margin-top:5px;
-		   float:right;
-		   margin-right:100px;
-		   background:#333;
+.Topic{
+	color: blue;
+	text-align: center;
 }
 
-
-
-input[type=text]{
-	      padding:7px;
-				border:none;
-				font-size:16px;
-				font-family:Arial;   
-	     }
-
-button{
-	   float:right;
-	   color:#000
-	   border-radius:2 5px 5px 2;
-	   cursor:pointer;
-	   position:relative;
-	   padding: 7px;
-	   font-family:Arial;
-	   border: 2px;
-	   font-size: 16px;
-	   border-spacing: 10px
-	  }
-
-* {box-sizing:border-box}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 950px;
-  position: relative;
-  margin: auto;
-  height: auto;
-
-
-}
-/* Hide the images by default */
-.mySlides {
-  display: none;
+.logo{
+	padding-left: 30%;
 }
 
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.5s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
+.review{
+	color: white;
+	
 }
 
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
+.footer-bottom{
   width: 100%;
-  text-align: center;
-}
-.text a{
-  color: #f2f2f2;
-  list-style: none;
-}
-
-.text :hover{
-  text-transform: uppercase;
-}
-
-/* Number text (1/6 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
+  height: auto;
+  margin: auto;
+  margin-top: 0;
+  margin-bottom: 10px;
   background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+  position: relative;
 }
-
-.active, .dot:hover {
-  background-color: #f59f9f;
+.footer-bottom{
+  font-size: 14px;
+  text-align: center;
+  color: #000;
 }
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
 
 .section_1{
   height: 200px;
@@ -442,20 +335,7 @@ button{
   background: #f00;
 }
 
-.footer-bottom{
-  width: 90%;
-  height: auto;
-  margin: auto;
-  margin-top: 0;
-  margin-bottom: 10px;
-  background-color: #bbb;
-  position: relative;
-}
-.footer-bottom{
-  font-size: 14px;
-  text-align: center;
-  color: #000;
-}
+
 
 /*RESPONSIVE CODE*/
 @media only screen and (max-width: 100%){
@@ -531,7 +411,5 @@ button{
 .footer-social-icons ul li:nth-child(6){
     background: #25d366;
 }
-
-
 
 
