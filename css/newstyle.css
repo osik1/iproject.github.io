@@ -94,7 +94,9 @@ color: #ffffff;
 font-size: 30px;
 display: none; 
 }
-@media (max-width:768px){
+
+
+@media screen and (max-width:768px){
 .toggle{
 display: block; 
 }
@@ -254,6 +256,7 @@ width: 90%;
 margin: 0 auto;
 }
 .testimonial-sections{
+    display: none;
 visibility: visible;
 padding-top: 40px;
 width: 100%;
