@@ -252,7 +252,7 @@ padding-top: 40px;
 }
 
 .youtube-sections iframe{
-width: 100%;
+width: 90%;
 /* margin: 0 auto; */
  margin-bottom: 20px;
 text-align: center;
@@ -556,11 +556,6 @@ padding-top: 20px;
 /* visibility: visible; */
 width: 100%;
 }
-.youtube-sections{
-width: 100%;
-padding-left:1.5%;
-}   
-}
 
 @media only screen and (min-width: 411px){
 .headerLogo{ 
@@ -624,10 +619,7 @@ padding: auto;
 margin: auto;
 margin-bottom: 0px;
 }  
-.youtube-sections{
-width: 100%;
-padding-left:7%;
-} 
+
 .video{
 padding-left: 1%;
 }
@@ -731,11 +723,7 @@ width: 100%;
 padding-left: 26%;
 padding-top: 5%;
 }
-.youtube-sections{
-width: 100%;
-padding-top: 0px;
-padding-left: 22%;
-}
+
 .testimonial-sections{
 width: 100%;
 float: left;
@@ -845,10 +833,7 @@ padding: auto;
 margin: auto;
 padding-bottom: 0px;
 }
-.youtube-sections{
-width: 100%;
-padding-left:25%;
-}
+
 /* Slideshow container */
 .testimonial-sections{
 /* visibility: visible; */
@@ -950,10 +935,7 @@ padding-bottom: 5%;
 padding-left: 1%;
 
 }
-.youtube-sections{
-width: 100%;
-padding-left:20%;
-}
+
 /* testimonial Slideshow container */
 .testimonial-sections{
 padding-left: 4%;
@@ -996,10 +978,7 @@ padding-right: 2%;
 .video{
 padding-left: 1%;
 }
-.youtube-sections{
-width: 100%;
-padding-left:30%;
-} 
+ 
 /* testimonial Slideshow container */
 .testimonial-sections{
 /* visibility: visible; */
@@ -1129,9 +1108,7 @@ padding-bottom: 0px;
 width: 100%;
 text-align: center;
 }
-.youtube-sections{
-width: calc(100% /2);
-}
+
 
 /* Slideshow container */
 .testimonial-sections{
@@ -1281,10 +1258,7 @@ padding: auto;
 margin: auto;
 padding-bottom: 0px;
 }
-.youtube-sections{
-width: 100%;
-padding-left:30%;
-} 
+
 /* testimonial Slideshow container */
 .testimonial-sections{
 /* visibility: visible; */
@@ -1357,12 +1331,7 @@ padding-right: 25%;
 width: 100%;
 padding-left: 5%;
 }
-.youtube-sections{
-width: calc(100% /2);
-float: left;
-padding-left: 2%;
 
-}
 .testimonial-sections{
 width: calc(100% /2);
 }
@@ -1428,12 +1397,7 @@ padding-right: 25%;
 width: 100%;
 padding-left: 5%;
 }
-.youtube-sections{
-width: calc(100% /2);
-float: left;
-padding-left: 10%;
 
-}
 .testimonial-sections{
 width: calc(100% /2);
 }
