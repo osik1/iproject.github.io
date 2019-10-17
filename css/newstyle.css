@@ -246,11 +246,22 @@ color: #c76105;
 padding-left: 30%;
 }
 .youtube-sections{
-padding-top: 20px;
+padding-top: 40px;
+}
+
+.youtube-sections iframe{
+width: 90%;
+margin: 0 auto;
 }
 .testimonial-sections{
 visibility: visible;
-padding-top: 20px;
+padding-top: 40px;
+width: 100%;
+}
+
+.testimonial-slideshow-container img{
+    width: 85%;
+    margin: 0 auto;
 }
 
 #about-us-section{
