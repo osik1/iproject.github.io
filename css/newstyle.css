@@ -3,6 +3,26 @@ margin: 0;
 padding: 0;
 }
 
+
+/* Hiding the page content for construction */
+.wholepage {display: none;}
+.footer-bottom {display: none;}
+.footer-section {display: none;}
+h1#construction {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    color: #c76105;
+    background: #333;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+
+
+
 .wholepage{
 width: 90%;
 margin: auto;
