@@ -10,10 +10,34 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="Leghttps://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
     <link rel="icon" type="image/icon" href="logo.png" />
-
     <script type="text/javascript" src="homepage.js" async></script>
     <title>Iproject-Leg</title>
-   
+    
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+    window.fbAsyncInit = function() {
+    FB.init({
+    xfbml            : true,
+    version          : 'v4.0'
+    });
+    };
+
+    (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Your customer chat code -->
+    <div class="fb-customerchat"
+    attribution=setup_tool
+    page_id="2310696495661244"
+    logged_in_greeting="Hello feel free to ask us any question?"
+    logged_out_greeting="Hello feel free to ask us any question?">
+    </div>
 
 
 </head>
@@ -217,17 +241,19 @@
                   <div id="about-heading"><h3>ABOUT US</h3></div>
                   <div id="about-paragraph">
                       <p>
-                        I-Project Leg is an IT  startup that started between friends studying BSC in Information and
-                        Technology at the university of Ghana DE city campus.
-                        The then project group unveiled their Company together with their first Project called DNB-Digital Notice Board App.
-                        in September 2019.
-                        I-Project Leg provide INTELLIGENT solutions to problems facing institutions and all aspect of lives with computer technology,
-                        by providing IT services, applications and products.
-                        I-Project Leg aspires to build momentum in the IT industry, by making Ghana one of the top world hubs for technology and 
-                        business services.
-                        We strive to further develop other Students potentials and also employ them to be part of us,
-                        to also become a one-stop shop for all IT services.
-                        Explore more with I-PROJECT LEG because we look forward to helping you out even at the tiniest possible instances!
+                        On the outskirts of Cairo, the Information Technology Industry Development Agency
+                        (ITIDA) lies at the heart of a 600-acre modern business park, Smart Village. 
+                        The Ministry of Communications and Information Technology (MCIT) launched ITIDA 
+                        as an executive IT arm in 2004 to stimulate, orchestrate and spearhead the process
+                          of developing the Egyptian IT industry.
+                        The agency takes a pivotal role in protecting the intellectual property rights and 
+                        ethics of information technology towards a more secure e-business ecosystem and 
+                        sourcing/off-shoring services positioning.
+                        IT Industry Development Agency is both a focal point for foreign investors, and a strategic 
+                        advisor to multinational companies investing in the local ICT.
+                        We improve Egypt’s global IT competitiveness by uplifting the exports of IT services, applications 
+                        and products.
+                        To motivate the local IT market and adapt to changes in the global industry, ITIDA adopts a 
                         
                         </p>
                     </div>
@@ -242,7 +268,11 @@
                   <div id="about-heading"><h3>MISSION</h3></div>
                   <div id="mission-paragraph">
                       <p>
-                        I-project leg overriding mission is to be a spring board for Ghana's economic growth and development, helping to solve Ghana's problems using cutting edge AI technology.  Providing a world-class techniques to eradicate some of Ghana's developmental issues through innovative and sustainable corporate social investment initiatives
+                          On the outskirts of Cairo, the Information Technology Industry Development Agency
+                          (ITIDA) lies at the heart of a 600-acre modern business park, Smart Village. 
+                          The Ministry of Communications and Information Technology (MCIT) launched ITIDA 
+                          as an executive IT arm in 2004 to stimulate, orchestrate and spearhead the process
+                            of developing the Egyptian IT industry.
                         </p>
                     </div>
       
@@ -255,7 +285,11 @@
                   <div id="about-heading"><h3>VISION</h3></div>
                   <div id="vission-paragraph">
                       <p>
-                        Our  vision is to harness the power of technology to provide an effective solutions. Our big dream is to change how people see problems. I-project Leg cannot solve all the problems in the world but will use try and tested techniques to solve most problems. We believe IF IT IS TO BE IT IS UP TO US.
+                          On the outskirts of Cairo, the Information Technology Industry Development Agency
+                          (ITIDA) lies at the heart of a 600-acre modern business park, Smart Village. 
+                          The Ministry of Communications and Information Technology (MCIT) launched ITIDA 
+                          as an executive IT arm in 2004 to stimulate, orchestrate and spearhead the process
+                            of developing the Egyptian IT industry.
                         </p>
                     </div>
       
@@ -271,7 +305,7 @@
                   <div id="members-heading">
                        <h2>OUR TEAM</h2>
                    </div>
-                   <div class="trending-apps-row">
+                   <div class="member-row-one">
                     <div class="card">
                     <div id="image-one"> 
                       <img src="images/K.jpg">
@@ -295,8 +329,8 @@
                     </div>
 
                     
-                    <div class="trending-apps-row">
-                     <div class="card">
+                    <div class="member-row-two">
+                      <div class="card">
                      <div id="image-two"> 
                        <img src="images/D.jpg">
                      </div>
@@ -319,8 +353,8 @@
                      </div>
 
 
-                     <div class="trending-apps-row">
-                        <div class="card">
+                     <div class="member-row-three">
+                      <div class="card">
                         <div id="image-three"> 
                           <img src="images/O.jpg">
                         </div>
@@ -341,12 +375,12 @@
                            </div>
                         </div>
                         </div>
-                </div>
+         </section>
 
 
                 <section id="members-section-two">
-                    <div class="trending-apps-row">
-                      <div class="card">
+                  <div class="member-row-four">
+                    <div class="card">
                       <div id="image-four"> 
                         <img src="images/A.jpg">
                       </div>
@@ -369,8 +403,8 @@
                       </div>
   
                       
-                      <div class="trending-apps-row">
-                       <div class="card">
+                      <div class="member-row-five">
+                        <div class="card">
                        <div id="image-five"> 
                          <img src="images/c.jpg">
                        </div>
@@ -393,8 +427,8 @@
                        </div>
   
   
-                       <div class="trending-apps-row">
-                          <div class="card">
+                       <div class="member-row-six">
+                        <div class="card">
                           <div id="image-six"> 
                             <img src="images/E.jpg">
                           </div>
@@ -417,7 +451,7 @@
                           </div>
 
                           <section id="members-section-three">
-                            <div class="trending-apps-row">
+                            <div class="member-row-seven">
                               <div class="card">
                               <div id="image-seven"> 
                                 <img src="images/M.jpg">
@@ -440,7 +474,7 @@
                               </div>
                               </div>
                           </section>
-                  </div>
+                </div>
                   
                   
 
@@ -521,7 +555,7 @@
                                       <ul>
                                         <li><a href="https://web.facebook.com/pg/I-Project-Leg-2310696495661244/posts/?ref=page_internal" target="_blank"><i class="fa fa-facebook"></i></a></li>
                                         <li><a href="https://twitter.com/IProjectLeg" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="https://www.instagram.com/iprojectleg/?hl=en" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                                        <li><a href="https://www.instagram.com/iproject.leg/?hl=en" target="_blank"><i class="fa fa-instagram"></i></a></li>
                                         <li><a href="https://www.linkedin.com/feed/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                                         <li><a href="https://www.youtube.com/watch?v=TVbjHLkhlo4" target="_blank"><i class="fa fa-youtube"></i></a></li>
                                       </ul>
